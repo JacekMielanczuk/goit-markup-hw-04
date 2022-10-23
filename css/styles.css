@@ -130,7 +130,7 @@ link:active {
   letter-spacing: 0.03em;
   color: var(--descriptions-color);
   width: 270px;
-  height: 108px;
+  height: 148px;
   background-color: #ffffff;
   text-align: center;
   display: flex;
@@ -330,4 +330,31 @@ link:active {
   border-radius: 4px;
   width: 70px;
   height: 70px;
+}
+.social-links {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.social-list-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  fill: #ffffff;
+  background-color: #2196f3;
 }
