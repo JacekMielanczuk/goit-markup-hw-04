@@ -189,7 +189,6 @@ link:active {
   gap: 10px;
   padding-left: 24px;
   background-color: #ffffff;
-  border: 1px solid #eeeeee;
   width: 370px;
 }
 .mail2 {
@@ -272,8 +271,6 @@ link:active {
 }
 .margins {
   margin: 30px 0px 0px 0px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .no-gap {
   display: block;
@@ -313,6 +310,13 @@ link:active {
 .project-wrapper {
   display: flex;
   flex-wrap: wrap;
+}
+.borders {
+  border: 1px solid #eeeeee;
+}
+.card-hover:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .item {
   flex-basis: calc((100%-60px) / 3);
