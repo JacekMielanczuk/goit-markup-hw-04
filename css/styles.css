@@ -42,15 +42,26 @@ link:active {
   width: 254px;
 }
 .contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--descriptions-color);
 }
-.contact:hover .contact:focus {
+
+.contact:hover .contact:focus. {
   color: var(--buttons-color);
 }
+.envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--descriptions-color);
+}
+
 .title {
   font-weight: 900;
   font-size: 44px;
