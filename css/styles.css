@@ -376,3 +376,10 @@ link:active {
   fill: #2196f3;
   border-color: #2196f3;
 }
+.join-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
