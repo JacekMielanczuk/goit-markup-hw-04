@@ -52,7 +52,7 @@ link:active {
   color: var(--descriptions-color);
 }
 
-.contact:hover .contact:focus. {
+.contact:hover .contact:focus {
   color: var(--buttons-color);
 }
 .envelope {
@@ -61,7 +61,12 @@ link:active {
   margin-right: 10px;
   fill: var(--descriptions-color);
 }
-
+.phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--descriptions-color);
+}
 .title {
   font-weight: 900;
   font-size: 44px;
