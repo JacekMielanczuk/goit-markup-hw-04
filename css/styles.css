@@ -314,3 +314,20 @@ link:active {
 .item {
   flex-basis: calc((100%-60px) / 3);
 }
+.svg-backgroud {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  padding: 25px 100px 25px 100px;
+}
+.svg-strengths {
+  display: flex;
+  align-items: center;
+  fill: #f5f4fa;
+  border-radius: 4px;
+  width: 70px;
+  height: 70px;
+}
