@@ -59,7 +59,7 @@ link:active {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: var(--descriptions-color);
+  fill: var(--color1);
 }
 .phone {
   width: 10px;
@@ -342,8 +342,8 @@ link:active {
   height: 70px;
 }
 .social-links {
-  width: 20px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
   fill: #afb1b8;
 }
 
@@ -362,11 +362,6 @@ link:active {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-}
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: #2196f3;
-  fill: #ffffff;
 }
 
 .client-list {
@@ -404,8 +399,8 @@ link:active {
 }
 
 .social-links-footer {
-  width: 20px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
   fill: #ffffff;
 }
 
@@ -424,8 +419,4 @@ link:active {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-}
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: #2196f3;
 }
