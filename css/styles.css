@@ -59,13 +59,20 @@ link:active {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: var(--color1);
+  color: var(--descriptions-color);
+}
+.link:hover,
+.link:focus,
+.link:active {
+  --color1: var(--buttons-color);
+  --color2: var(--buttons-color);
+  --color4: var(--buttons-color);
+  --color5: var(--title-color);
 }
 .phone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: var(--descriptions-color);
 }
 .title {
   font-weight: 900;
@@ -370,7 +377,6 @@ link:active {
   justify-content: space-around;
 }
 .client {
-  fill: #afb1b8;
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -378,8 +384,8 @@ link:active {
 }
 .client:hover,
 .client:focus {
-  fill: #2196f3;
   border-color: #2196f3;
+  --color5: var(--buttons-color);
 }
 .join-us {
   display: flex;
