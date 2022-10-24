@@ -4,6 +4,7 @@
   --title-color: #ffffff;
   --descriptions-color: #757575;
   --filters-color: #f5f4fa;
+  --background-social: rgba(255, 255, 255, 0.1);
 }
 body {
   font-family: "Raleway", sans-serif;
@@ -407,9 +408,14 @@ link:active {
 .social-links-footer {
   width: 44px;
   height: 44px;
-  fill: #ffffff;
+  --color4: var(--background-social);
+  --color5: var(--title-color);
 }
-
+.social-links-footer:hover,
+.social-links-footer:focus,
+.social-links-footer:active {
+  --color4: var(--buttons-color);
+}
 .social-footer {
   display: flex;
   align-items: center;
