@@ -408,6 +408,7 @@ link:active {
   border-radius: 4%;
   width: 170px;
   height: 92px;
+  padding: 16px 32px 16px 32px;
 }
 .client:hover,
 .client:focus {
