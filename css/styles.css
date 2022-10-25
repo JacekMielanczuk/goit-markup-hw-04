@@ -305,7 +305,7 @@ link:active {
 .social-footer {
   gap: 10px;
   display: flex;
-  justify-self: flex-start;
+  justify-content: flex-start;
   align-items: center;
 }
 .footer-wrapper {
@@ -327,6 +327,10 @@ link:active {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  padding-left: 40px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .filters-nav {
   padding-top: 94px;
@@ -426,4 +430,10 @@ link:active {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+}
+.social-padding {
+  padding-top: 72px;
+  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
 }
