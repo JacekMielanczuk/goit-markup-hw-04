@@ -404,10 +404,10 @@ link:active {
   justify-content: space-around;
 }
 .client {
-  width: 170px;
-  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4%;
+  width: 170px;
+  height: 92px;
 }
 .client:hover,
 .client:focus {
