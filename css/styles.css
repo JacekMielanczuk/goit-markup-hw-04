@@ -5,6 +5,7 @@
   --descriptions-color: #757575;
   --filters-color: #f5f4fa;
   --background-social: rgba(255, 255, 255, 0.1);
+  --client-color: #afb1b8;
 }
 body {
   font-family: "Raleway", sans-serif;
@@ -410,6 +411,7 @@ link:active {
   width: 170px;
   height: 92px;
   padding: 16px 32px 16px 32px;
+  color: #afb1b8;
 }
 .client:hover,
 .client:focus {
@@ -420,19 +422,20 @@ link:active {
 .social-links-footer {
   width: 44px;
   height: 44px;
-  --color4: var(--background-social);
-  --color5: var(--title-color);
+  --color5: var(--background-social);
+  --color4: var(--title-color);
 }
 .social-links-footer:hover,
 .social-links-footer:focus,
 .social-links-footer:active {
-  --color4: var(--buttons-color);
+  --color4: var(--title-color);
+  --color5: var(--buttons-color);
 }
 .footer-social-link {
   display: flex;
   width: 44px;
   height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   align-items: center;
   justify-content: center;
