@@ -399,7 +399,12 @@ link:active {
   align-items: center;
   justify-content: center;
 }
-
+.social-list-link:hover,
+.social-list-link:focus,
+.social-list-link:active {
+  --color5: var(--buttons-color);
+  --color4: var(--title-color);
+}
 .client-list {
   display: flex;
   align-items: center;
